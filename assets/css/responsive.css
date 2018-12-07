@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*responsive with screet devices*/
+/*Large desktop*/
+
+@media (min-width:768px) and (max-width:1300px) {
+	
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width:768px) and (max-width:991px) {
+
+	.thin-line {
+		margin-bottom: -20px;
+		margin-top: 40px;
+	
+	}
+	/* title */
+	.title{
+		width: 350px;
+	}
+	.title h1{
+		font-size: 25px;
+		color: white;
+		margin: 0;
+	 }
+
+	/* banner */
+
+	.carousel-caption h3{
+		font-size: 30px;
+		width: 80%;
+	}
+
+
+	/* overview */
+	#overview p {
+		padding-right: 50px;
+		margin-bottom: 50px;
+	}
+
+
+	#overview .office .the-office {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top: 43%;
+		z-index: -1;
+	}
+	#overview .office .the-office .text {
+		flex: 1;
+		padding-right: 20px;
+	}
+
+
+	#overview h3 {
+		font-size: 16px;
+		color: #495488;
+		margin: 30px 0;
+		line-height: 25px;
+		padding-right: 100px;
+		font-weight: 300;
+	}
+
+
+	/* service */
+	#service h3 {
+		font-size: 16px;
+		color: #495488;
+		margin: 30px 0;
+	
+		padding-right: 40px;
+	
+	}
+
+	#service .office .the-office {
+	
+		bottom: 12%;
+	
+	}
+
+	#team .team-member .item .text p {
+	
+		font-size: 14px;
+	}
+
+
+
+
+	#team .team-member .item .content-item .text {
+	
+		width: 124px;
+		height: 54px;
+	
+	}
+
+
+
+	/* footer */
+	#footer .overview {
+		padding-top: 0px;
+	}
+
+
+	#footer .container-fluid .container .overview .box-logo {
+		width: 200px;
+		height: 42px;
+	}
+}
+/* landscape phone */
+@media (min-width:480px) and (max-width:767px) {
+   
+}
+
+
+
+/* Portrait phone */
+@media (max-width:479px) {
+  
+}
+
+
+

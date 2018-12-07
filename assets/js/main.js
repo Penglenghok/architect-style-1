@@ -134,7 +134,7 @@ $(document).ready(function(){
             });
         };
         $('#hamburger-menu').clickMenuHumberger({
-            obj:['.container-fluid-menu .box-tool-top','#content','#footer'],
+            obj:['.container-fluid-menu .box-tool-top','#content','#footer','.banner','.content'],
             objHide:['#header .nav-menu-sidebar-tablate'],
             width: 50,
             duration:300,
