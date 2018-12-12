@@ -1,0 +1,54 @@
+
+/* Portrait phone 5 */
+@media (min-width:321px) and (max-width:375px){
+/*content-home*/
+    /*condominium*/
+    #content .condominium .box-img{width: 160px;}
+    #content .condominium .box-img .icon{height: 120px;}
+    #content .condominium .box-img:nth-child(3n + 3) .icon{height: 270px;}
+    /*download brochure*/
+    #content .download-brochure .img{height: 350px;}
+    /*statistic*/
+    #footer .statisic .box-img{width: 160px;padding-left: 10px;}
+    /*footer contact*/
+    #footer .contact ul li span:last-child{width: 81%;}
+/*content-location*/
+    /*banner-pages*/
+    #content .banner-pages{height: 360px;}
+    /*overview*/
+    #content .location .overview .video{height: 250px;}
+    /*easy-life*/
+    #content .location .easy-life .box-img{width: 160px;height: 160px;}
+/*content-interiors*/
+    /*groups*/
+    #content .interiors .group .video{height: 250px;}
+    #content .interiors .group .box-img{width: 160px;height: 160px;}
+/*content-developer*/
+    /*groups*/
+    #content .developer .img{height: 375px;}
+}
+@media (max-width:320px) {
+/*content-home*/
+    /*condominium*/
+    #content .condominium .box-img{width: 133px;}
+    #content .condominium .box-img .icon{height: 100px;}
+    #content .condominium .box-img:nth-child(3n + 3) .icon{height: 240px;}
+    /*download brochure*/
+    #content .download-brochure .img{height: 280px;}
+    /*statistic*/
+    #footer .statisic .box-img img{height: 30px;}
+    #footer .statisic .box-img{width: 133px;padding-left: 10px;}
+    /*footer contact*/
+    #footer .contact ul li span:last-child{width: 78%;}
+/*content-location*/
+     /*banner-pages*/
+    #content .banner-pages{height: 300px;}
+    /*overview*/
+    #content .location .overview .video{height: 230px;}
+    /*easy-life*/
+    #content .location .easy-life .box-img{width: 133px;height: 133px;}
+/*content-interiors*/
+    /*groups*/
+    #content .interiors .group .video{height: 230px;}
+    #content .interiors .group .box-img{width: 133px;height: 133px;}
+}

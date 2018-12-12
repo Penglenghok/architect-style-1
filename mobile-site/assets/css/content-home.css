@@ -1,0 +1,41 @@
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Content
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+
+/*herro banner*/
+#content .container-content,#footer .container-footer{background-color: white;height: auto;width: 100%;}
+#content .sub-banner{overflow: hidden;}
+#content .sub-banner img{height: 100%;width: 100%;object-fit: cover;}
+#content .sub-banner .carousel-caption h1{font-size: 25px;color: white;font-weight: 500}
+.carousel-indicators li{background-color: white;}
+.carousel-indicators li.active{background-color: #495488;width: 10px;height: 10px;margin: 1px;}
+.carousel-caption{
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 0 30px;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.carousel-caption .line{
+    margin-bottom: 30px;
+}
+/*end herro banner*/
+#content .items{text-align: center;padding-top: 30px;}
+#content .items .main-title{margin-bottom: 20px;line-height: 30px;padding-top: 5px;padding-left: 30px;padding-right: 30px;}
+#content .items .main-title h2{font-weight: normal;color: #32CF9D;}
+#content .items .box-img{width: 100%;overflow: hidden;}
+#content .items .box-img img{width: 100%;}
+#content .items .title-detail{margin-bottom: 10px;font-size: 14px;line-height: 25px;padding-left: 30px;padding-right: 30px;}
+/*overview*/
+
+
+
+
+/*facilities*/
+
